@@ -13,6 +13,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="">
 		<title>REDMASCOTERA</title>
 		<script src="slider/sliderengine/jquery.js"></script>
 		<script src="slider/sliderengine/amazingslider.js"></script>
