@@ -1,0 +1,36 @@
+	function nombre_apellido(VAR){
+		EXP="/^[a-zαινσϊρ\s]{3,25}$/i";
+		return FUNC(EX, VAR);
+	}
+	function fecha_f(VAR){
+		EXP="/^((0?[1-9]|1[0-9]|2[0-9]|3[0-1])(\/|\-)(0?[1-9]|1[0-2])(\/|\-)(19[2-9][0-9]|20[0-1][0-9]))?$/";
+		return FUNC(EX,VAR);
+	}
+	function foto_f(VAR){
+		EXP="/^.+(.jpe?g)$/i";
+		return FUNC(EX,VAR); 
+	}
+	function email_f(VAR){
+		EXP="/^[a-zA-Z\d\-\.]{3,25}@[a-z]{3,15}\.[a-z]{2,4}$/";
+		return FUNC(EX, VAR);
+	}
+	function clave_f(VAR){
+		EXP="/^[a-zA-Z\d_#,;~@%&\\\!\$\^\*\(\)\-\+\=\{\}\[\]\:\'\\<\>\.\?\|]{3,15}$/";
+		return FUNC(EX, VAR);
+	}
+	function calle_f(VAR){
+		EXP="/^([a-z\d\s\-]+)?$/i";
+		return FUNC(EX,VAR); 
+	}
+	function numero_f(VAR){
+		EXP="/^[\d]{8,15}$/";
+		return FUNC(EX,VAR); 
+	}
+	function piso_f(VAR){
+		EXP="/^(\d*|S\/N|PB)?$/";
+		return FUNC(EX,VAR); 
+	}
+	function depto_f(VAR){
+		EXP="/^(\d+|[a-z])?$/i";
+		return FUNC(EX,VAR); 
+	}
