@@ -1,5 +1,5 @@
 # redmascotera
-project based on php procedural (2015)
+project based on procedural php (2015)
 
 CRUD Website.   
 Use of RegEx for inputs validation.     
