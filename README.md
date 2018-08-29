@@ -13,6 +13,7 @@ Lenguajes:
 - PHP
 - Javascript
 - Jquery
+- MySQL
 - HTML5
 - CSS3
 
